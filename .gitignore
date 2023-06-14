@@ -1,0 +1,4 @@
+# dont have these files in your git
+bin
+bin/sorting
+cache
