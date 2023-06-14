@@ -14,12 +14,15 @@ import javax.xml.transform.Source;
 public class SortingProgram {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the number of Elements");
-        int size = scanner.nextInt();
+        System.out.println("Enter the elements of the array, separated by spaces:");
+        String input = scanner.nextLine();
+
+        String[] elements = input.split(" ");
+        int size = elements.length;
         int[] array = new int[size];
-        System.out.println("Enter elements of array");
+
         for (int i = 0; i < size; i++) {
-            array[i] = scanner.nextInt();
+            array[i] = Integer.parseInt(elements[i]);
         }
         // int[] array = { 5, 8, 2, 1, 6 }; // Example array, you can change this
 
