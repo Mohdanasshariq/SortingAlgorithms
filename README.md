@@ -1,5 +1,2 @@
 # SortingAlgorithms
-Here package name is sorting.
-SortingProgram is the main file whereas other are alogorithm files which will use by main file to sort any array.
-First compile the code by using command "javac -d bin BubbleSort.java QuickSort.java MergeSort.java BinarySort.java SortingProgram.java.
-After compling now execute the code by using command "java -cp bin sorting.SortingProgram.
+The package name is "sorting". The main file is "SortingProgram", while the other files are algorithm files that will be used by the main file to sort an array. To compile the code, use the following command: `javac -d bin BubbleSort.java QuickSort.java MergeSort.java BinarySort.java SortingProgram.java`. After compiling, execute the code using the command: `java -cp bin sorting.SortingProgram`. 
